@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+QuizMaster: A Trivia Quiz App
+Overview
+QuizMaster is a dynamic and interactive trivia application built with React. It allows users to test their knowledge across various categories and difficulty levels by fetching questions from the Open Trivia Database API. This project was built as a capstone for the ALX Software Engineering program.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Category Selection: Users can choose from a wide range of trivia categories, such as Science, History, Film, and more.
 
-## Available Scripts
+Difficulty Levels: The quiz can be customized with three difficulty settings: Easy, Medium, and Hard.
 
-In the project directory, you can run:
+Real-Time Questions: The app fetches new questions from a public API, ensuring a fresh experience every time.
 
-### `npm start`
+Score Tracking: The user's score is updated instantly as they answer questions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive Design: The application is built with Tailwind CSS to provide a clean and user-friendly interface that works well on all devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies Used
+React: A JavaScript library for building user interfaces.
 
-### `npm test`
+Tailwind CSS: A utility-first CSS framework for rapid and responsive UI development.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open Trivia Database API: A free, public API used to fetch quiz questions.
 
-### `npm run build`
+JavaScript (ES6+): The core programming language for the application's logic.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm: The package manager used to handle project dependencies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+How to Run Locally
+To get a copy of this project up and running on your local machine, follow these simple steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Prerequisites
+You need to have Node.js and npm installed on your system.
 
-### `npm run eject`
+Potential Future Improvements
+Add a timer to each question for a more challenging experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Implement a login system to save user scores to a leaderboard.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Include a "Review Answers" page at the end of the quiz.
